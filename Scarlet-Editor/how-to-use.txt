@@ -1,0 +1,64 @@
+In the Scarlet Editor, you can place props such as walls, floor tiles, roofs, windows, and balconies, and place entities like enemies and power-ups in Object View Mode, and then paint collision data in Collision View Mode.
+
+Collision types:
+Orange - solid collision
+Gray - semi-solid, can jump through the bottom and land ontop
+Red - Spikes, causes damage to the player and bounces them upwards
+Dark red/maroon - Spikes as well, but this time its insta-death
+
+Adjust the map boundaries to fit your map. This affects how vertically stretched the background textures are when rendered, and also creates a kill zone if the player falls through the bottom of the boundaries.
+
+GLOBAL HOTKEYS
+Ctrl + N --- New Map
+Ctrl + O --- Open Map
+Ctrl + S --- Save Map
+Ctrl + Shift + S --- Save Map As
+Ctrl + I --- Enter Index Mode
+Ctrl + E --- Enter Index Mode in props
+Ctrl + W --- Enter Index Mode in entities
+Shift + E --- Object Tool in prop mode
+Shift + E --- Object Tool in entity mode
+S --- Selection Tool
+B --- Brush Tool
+C --- Cordon Tool
+O --- Object Tool
+T --- Toggle View Mode
+0 (Zero) --- Reset camera to (0,0)
+G --- Toggle grid display type (dots or lines)
+F5 --- Reload instances
+1 - 9 --- Change between layers 0-8
+L - Toggle Layer View Mode
+
+SELECTION TOOL HOTKEYS
+ESC --- Reset selection
+Arrow Keys --- Nudge selection box by 1 unit
+Ctrl + Arrow Keys - Nudge selection box by 10 units
+
+In Collision View
+F - Fill selection with chosen collision color
+DEL - Fill selection with black (nothing)
+Ctrl + A - Select entire map
+
+In Object View
+ENTER --- After selection box has been dragged out, select the objects inside of it
+CTRL + Click --- Multi select
+DEL - delete selected objects
+Arrow Keys --- Nudge selected objects by 1 unit
+Ctrl + Arrow Keys - Nudge selected objects by 10 units
+
+BRUSH TOOL HOTKEYS
+ESC --- Reset selection
+Ctrl + A - Select entire map
+E --- Toggle between Paint and Erase mode
+[, ] --- Decrease and increase brush size
+A, D --- Cycle chosen color
+
+CORDON TOOL HOTKEYS
+ESC --- Go back to Selection Tool
+Arrow Keys --- Nudge map boundaries by 1 unit
+Ctrl + Arrow Keys - Nudge map boundaries by 10 units
+
+OBJECT TOOL HOTKEYS
+ESC --- Reset selection
+Q, W, E --- Switch between Instance, Entity, and Prop mode
+A, D --- Cycle through the list of objects to place
