@@ -1,5 +1,5 @@
 # Scarlet Meadow
-A 2D beat-em-up platformer game and custom level authoring tool built in Monogame/C#
+A 2D beat-em-up platformer game and custom level authoring tool built in Monogame/C# \
 You can download the game for free from the Itch.io page: https://nickybakes.itch.io/scarlet-meadow
 
 - Scarlet Meadow is a tricky platformer with beat-em-up elements and 16 levels built using a custom made level editor (The Scarlet Editor)
@@ -10,7 +10,7 @@ You can download the game for free from the Itch.io page: https://nickybakes.itc
 
 The game and level editor was built from scratch using Monogame and C#. I designed and developed the physics/collision system, player movement and control, gameplay and combat loop, character weapons and abilities, items, enemy behavior, and stage objectives. I also developed the entire level editor in 3 weeks, and designed and built all 16 levels. The art and animation was all hand drawn physically (penciled and inked) on cels, scanned in, and colored digitally. Backgrounds were painted digitally. All art and animation was done by me as well.
 
-Scarlet Meadow was designed developed in 3 months and shipped in 2020.
+Scarlet Meadow was designed developed in 3 months and shipped in May 2020.
 
 https://github.com/nickybakes/scarlet-meadow-2020/assets/47609027/68b0942f-0796-45d8-bf97-637e81ee41b7
 
